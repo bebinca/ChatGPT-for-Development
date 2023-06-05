@@ -22,8 +22,8 @@ export default function App() {
       model,
     });
     const response = await chatgpt.sendMessage(prompt, {
-      conversationId: conversationId,
-      parentMessageId: parentMessageId,
+      conversationId: conversationId.length > 0 ? conversationId : undefined,
+      parentMessageId: parentMessageId.length > 0 ? parentMessageId : undefined,
       timeoutMs: Number(timeout),
     });
     setResult(JSON.stringify(response))
