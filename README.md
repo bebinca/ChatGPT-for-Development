@@ -18,7 +18,7 @@ npm start
 
 ## Config
 
- * **accessToken**: open https://chat.openai.com/chat and login with your own account. Then open development tool(F12) - Network, find /api/auth/session, you can see your accessToken. 
+ * **accessToken**: open https://chat.openai.com/chat and login with your own account. Then open https://chat.openai.com/api/auth/session, you can see your accessToken. 
 
  * **model**: `gpt-3.5-turbo` in default. You can use `gpt-4` if your account is ChatGPT Plus. 
 
